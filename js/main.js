@@ -1,6 +1,7 @@
 // init Isotope
 var $grid = $('.collection-list').isotope({
     // options
+    itemSelector: '.item'
   });
   // filter items on button click
   $('.filter-button-group').on( 'click', 'button', function() {
@@ -14,7 +15,7 @@ var $grid = $('.collection-list').isotope({
     filterBtns.each(function(){
       $(this).removeClass('active-filter-btn');
     });
-   }
+   };
 $(document).ready(function(){
     $(".banner-slider").owlCarousel({
         items :1,
