@@ -145,6 +145,33 @@ border-radius:50%;
 }
 
 /* end offres*/
+/*start about us*/
+#about img{
+  position: relative;
+  width: 600px;
+  animation: up-and-down 5s linear infinite;
+ 
+}
+/*
+@media (max-width:991px){
+  h2{
+    font-size: 18px;
+  }
+  h3{
+    font-size: 14px;
+  }
+  p{
+    font-size:10px;
+  }
+  .btn{
+    font-size: 14px;
+  }
+  #about img{
+padding-top:30px;
+  }
+}
+*/
+/*end about us*/
 
 /*start newsletter*/
 #newsletter p{
@@ -182,3 +209,14 @@ footer a:hover{
   color:var(--orange) !important;
 }
 /*end footer*/
+/*start animation*/
+@keyframes up-and-down {
+0%,
+100% {
+top: 0;
+}
+50%{
+  top:-50px;
+}
+}
+/*end animation*/
